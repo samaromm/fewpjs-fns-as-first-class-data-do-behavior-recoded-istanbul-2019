@@ -17,6 +17,6 @@ function greet(timeStr){
 
 /* Write your implementation of displayMessage() */
 
-function displayMessage(str){
-  document.getElementById('greeting').innerHTML=str;
+function displayMessage(word){
+  document.getElementById('greeting').innerHTML=word;
 }
