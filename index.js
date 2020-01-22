@@ -18,5 +18,5 @@ function greet(timeStr){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(str){
-  document.querySelector('#greeting').innerHTML=str;
+  document.querySelector('').innerHTML=str;
 }
