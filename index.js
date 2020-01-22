@@ -14,4 +14,8 @@ function greet(timeStr){
   else if(time>=12 && time<=17) return 'Good Afternoon';
   else return 'Good Evening';
 }
+
+function displayMessage(str){
+  document.querySelector(#greeting).innerHTML=str;
+}
 /* Write your implementation of displayMessage() */
