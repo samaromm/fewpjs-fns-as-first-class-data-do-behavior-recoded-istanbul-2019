@@ -9,7 +9,9 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeStr){
-  let timeNum= time.parseInt();
-  if()
+  let time= timeStr.parseInt();
+  if(time<12) return 'Good Morning';
+  else if(time>=12 && time<=5) return 'Good Afternoon';
+  else return 'Good Evening';
 }
 /* Write your implementation of displayMessage() */
